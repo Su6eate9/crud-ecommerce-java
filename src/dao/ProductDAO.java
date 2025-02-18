@@ -26,7 +26,7 @@ public class ProductDAO {
     products.removeIf(product -> product.getId() == id);
   }
 
-  public List<Product> getProducts() {
+  public List<Product> listProducts() {
     return new ArrayList<>(products);
   }
 
