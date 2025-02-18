@@ -1,5 +1,4 @@
 package models;
-import models.Product;
 
 public class EletronicProduct extends Product {
   private String brand;
